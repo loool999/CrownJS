@@ -53,13 +53,10 @@ mainframe.append(anime)
 anime.style.display = ''
 backbtn.textContent = "Go back"
 backbtn.style.display = "none"
-title.textContent = "CrownJS"
-author.textContent = "A collection of exploits by jango#5518"
-btn1.textContent = "History Flooder"
+title.textContent = "lol"
+author.textContent = "lolol"
 btn2.textContent = "Tab Cloak"
 btn3.textContent = "Proxy Browser"
-btn4.textContent = "Themes"
-anime.textContent = "Watch Anime"
 consolebtn.textContent = "Open Console"
 ds1.style.display = "none"
 
