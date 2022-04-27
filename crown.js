@@ -27,7 +27,7 @@ let consolebtn = document.createElement("div")
 consolebtn.id = "consolebtn"
 mainframe.appendChild(logo)
 mainframe.id = "mainframe"
-let proxyDomain = "/https://mikesproxy.herokuapp.com/main/"
+let proxyDomain = "/https://googlemath.net"
 // ignore this long part
 // appending all elements
 mainframe.id = "main"
