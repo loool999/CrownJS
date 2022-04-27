@@ -53,10 +53,13 @@ mainframe.append(anime)
 anime.style.display = ''
 backbtn.textContent = "Go back"
 backbtn.style.display = "none"
-title.textContent = "lol"
-author.textContent = "lolol"
+title.textContent = "CrownJS"
+author.textContent = "A collection of exploits by jango#5518"
+btn1.textContent = "History Flooder"
 btn2.textContent = "Tab Cloak"
 btn3.textContent = "Proxy Browser"
+btn4.textContent = "Themes"
+anime.textContent = "Watch Anime"
 consolebtn.textContent = "Open Console"
 ds1.style.display = "none"
 
@@ -89,9 +92,7 @@ consolebtn.onclick = () => {
 
   // main css
   stylething.textContent = `
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
 #console {
   width: 300px !important;
   border-style: none;
@@ -100,16 +101,13 @@ consolebtn.onclick = () => {
   color: green;
   font-family: "Open Sans";
 }
-
 #console::placeholder {
   color: green;
   font-family: "Open Sans";
 }
-
 #goback {
 z-index: 999999 !important;
 }
-
 #box {
   color: green;
   width: 294px !important ;
@@ -354,9 +352,7 @@ consolebtn.onclick = () => {
 
   // main css
   stylething.textContent = `
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
 #console {
   width: 300px !important;
   border-style: none;
@@ -365,16 +361,13 @@ consolebtn.onclick = () => {
   color: green;
   font-family: "Open Sans";
 }
-
 #console::placeholder {
   color: green;
   font-family: "Open Sans";
 }
-
 #goback {
 z-index: 999999 !important;
 }
-
 #box {
   color: green;
   width: 294px !important ;
@@ -479,9 +472,7 @@ z-index: 999999 !important;
 }
 // main css (this is the homepage bro lol) (Might call this the template css)
 style.textContent = `
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
 #main {
   background-color: black;
   width: 800px !important;
@@ -497,15 +488,11 @@ style.textContent = `
   left: 300px !important;
   top: 50px !important;
 }
-
 #title, #author {
   color: white;
    font-family: "Open Sans";
   padding: -10px;
 }
-
-
-
 #btn1, #btn2, #btn3, #btn4, #btn5, #animebtn, #consolebtn {
   background-color: grey;
   color: white;
@@ -518,12 +505,7 @@ style.textContent = `
   margin: 5px auto !important;
   transtion: 1s;
   transition-duration: 0.5s
-
 }
-
-
-
-
 #btn2:hover,#btn1:hover, #btn3:hover, #btn4:hover, #btn5:hover, #consolebtn:hover, #animebtn:hover {
   background-color: white;
   color: black;
@@ -538,7 +520,6 @@ border-radius: 10px;
   transform: scale(1.05);
  
 }
-
 #ds1 {
   color: green;
   font-family: "Open Sans";
@@ -547,16 +528,12 @@ border-radius: 10px;
   top: -5px;
   left: 10px;
 }
-
-
 @keyframes slidein {
   0% {
     opacity: 0%
   }
-
   100% {
     opacity: 100%
   }
 }
-
 `
